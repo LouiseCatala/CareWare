@@ -16,9 +16,9 @@ CareWare is available through these official publication channels:
 
 | Channel | Link | Availability |
 | --- | --- | --- |
-| CareWare website | [Open the official download page](https://louisecatala.github.io/CareWare/) |
-| GitHub Releases | [Download the latest Windows installer](https://github.com/LouiseCatala/CareWare/releases/latest) |
-| itch.io | [Download CareWare on itch.io](https://louisecatala.itch.io/careware) |
+| CareWare website | [Open the official download page](https://louisecatala.github.io/CareWare/) 
+| GitHub Releases | [Download the latest Windows installer](https://github.com/LouiseCatala/CareWare/releases/latest) 
+| itch.io | [Download CareWare on itch.io](https://louisecatala.itch.io/careware) 
 
 
 After the WinGet submission is approved, CareWare will also be installable from a terminal with:
