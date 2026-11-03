@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+html,body,#root{min-height:100%;background:#000;}
+body{margin:0;}
+
+body,button,input,textarea,select{font-family:Poppins,sans-serif;}
+button,a,input,select,textarea{outline-offset:4px;}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}

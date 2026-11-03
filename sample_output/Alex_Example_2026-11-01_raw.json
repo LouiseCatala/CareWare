@@ -1,0 +1,44 @@
+{
+  "customer": {
+    "name": "Alex Example",
+    "phone": "555-0100",
+    "address": "Example address"
+  },
+  "visit": {
+    "pc_brand_model": "ExampleBook 14",
+    "technician": "CareWare Demo Tech",
+    "service_date": "2026-11-01",
+    "health_score": 88,
+    "consent_understood": 1,
+    "consent_scan": 1,
+    "consent_cleanup": 0,
+    "consent_reminders": 1,
+    "consent_language": "English",
+    "signature": "Alex Example",
+    "consent_at": "2026-11-01T16:16:54+00:00",
+    "next_due": "2027-05-01"
+  },
+  "results": {
+    "System Info": {
+      "status": "good",
+      "headline": "Computer details collected",
+      "explanation": "The example computer information was recorded.",
+      "action": "Review details.",
+      "details": "Windows sample device; 16 GB RAM"
+    },
+    "Storage Health": {
+      "status": "attention",
+      "headline": "Storage needs attention",
+      "explanation": "The sample disk has 8% free space.",
+      "action": "Discuss a safe cleanup after reviewing the list.",
+      "details": "Drive C: 38 GB free of 480 GB"
+    },
+    "Physical Inspection Checklist": {
+      "status": "good",
+      "headline": "Physical inspection recorded",
+      "explanation": "Technician inspection saved.",
+      "action": "Review the notes.",
+      "details": "{\"Dust level\": true, \"Keyboard condition\": false}"
+    }
+  }
+}

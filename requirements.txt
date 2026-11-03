@@ -1,0 +1,8 @@
+# Runtime dependencies for CareWare on Python 3.11
+customtkinter==5.2.2
+Pillow==13.0.0
+psutil==6.1.0
+reportlab==4.2.5
+qrcode==8.0
+
+pywebview==6.2.1
