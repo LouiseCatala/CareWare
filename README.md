@@ -12,6 +12,21 @@ One-click PC cleanup and health checker with friendly, non-techy results and cus
 
 [**Download CareWare for Windows**](https://github.com/LouiseCatala/CareWare/releases/latest)
 
+CareWare is available through these official publication channels:
+
+| Channel | Link | Availability |
+| --- | --- | --- |
+| CareWare website | [Open the official download page](https://louisecatala.github.io/CareWare/) | Available |
+| GitHub Releases | [Download the latest Windows installer](https://github.com/LouiseCatala/CareWare/releases/latest) | Available |
+| itch.io | [Download CareWare on itch.io](https://louisecatala.itch.io/careware) | Available |
+| Windows Package Manager (WinGet) | [View the WinGet submission](https://github.com/microsoft/winget-pkgs/pull/469376) | Pending Microsoft approval |
+
+After the WinGet submission is approved, CareWare will also be installable from a terminal with:
+
+```powershell
+winget install --id LouiseCatala.CareWare --exact
+```
+
 Requires 64-bit Windows 10 or Windows 11 and the Microsoft Edge WebView2 Runtime, which is already included with most Windows installations. The installer will explain what to do if it is missing.
 
 The SHA-256 of each installer is listed in its release notes. Verify it before installing.
