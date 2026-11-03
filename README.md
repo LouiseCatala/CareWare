@@ -14,8 +14,8 @@ One-click PC cleanup and health checker with friendly, non-techy results and cus
 
 CareWare is available through these official publication channels:
 
-| Channel | Link | Availability |
-| --- | --- | --- |
+| Channel | Link |
+| --- | --- |
 | CareWare website | [Open the official download page](https://louisecatala.github.io/CareWare/) 
 | GitHub Releases | [Download the latest Windows installer](https://github.com/LouiseCatala/CareWare/releases/latest) 
 | itch.io | [Download CareWare on itch.io](https://louisecatala.itch.io/careware) 
