@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CareWare makes local Windows PC health checks easier to understand.">
+  <meta name="theme-color" content="#050505">
+  <title>CareWare — clear, local PC checks</title>
+  <style>
+    :root{color-scheme:dark;--bg:#050505;--card:#111;--line:#242424;--muted:#9ca3af;--warm:#f2ad60;--green:#10b981}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:5;border-bottom:1px solid #1e1e1e;background:#050505e8;backdrop-filter:blur(14px)}
+    .nav .wrap{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:22px;font-weight:750;text-decoration:none}.navlinks{display:flex;gap:24px;align-items:center}.navlinks a{text-decoration:none;color:#c7c7c7;font-size:14px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid #fff;border-radius:9px;background:#fff;color:#050505;padding:13px 20px;text-decoration:none;font-weight:700;box-shadow:0 12px 38px #f2ad6030}.button.secondary{border-color:#333;background:#141414;color:#fff;box-shadow:none}
+    .hero{text-align:center;padding:80px 0 48px;overflow:hidden}.eyebrow{display:inline-block;border:1px solid #364152;border-radius:999px;background:#11182799;color:#aeb7c5;padding:7px 15px;font-size:13px}.hero h1{margin:34px auto 20px;max-width:850px;font-size:clamp(44px,7vw,78px);line-height:1.05;letter-spacing:-.055em;font-weight:650;background:linear-gradient(#fff 45%,#8f8f8f);background-clip:text;color:transparent}.hero p{max-width:680px;margin:0 auto 30px;color:#b8c1cf;font-size:18px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .preview{position:relative;margin:52px auto 0}.preview:before{content:"";position:absolute;inset:-100px 12% auto;height:220px;background:radial-gradient(ellipse,#f2ad6099,transparent 68%);filter:blur(24px);z-index:-1}.preview img{display:block;width:100%;border:1px solid #252525;border-radius:14px;box-shadow:0 35px 90px #000}
+    section{padding:72px 0}.section-head{max-width:700px;margin-bottom:28px}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.15;letter-spacing:-.035em;margin:0 0 12px}.section-head p,.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:24px}.card b{display:block;margin-bottom:7px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:14px}.number{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#fff;color:#000;font-weight:800;margin-bottom:18px}
+    .why{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}.quote{font-size:clamp(28px,4vw,46px);line-height:1.2;letter-spacing:-.035em;margin:0}.privacy{border:1px solid #153b31;background:#071a15;border-radius:14px;padding:26px}.privacy strong{color:#50d9ad}.privacy ul{padding-left:20px;color:#b5c9c2;margin-bottom:0}
+    .cta{padding:44px;border:1px solid #2b2b2b;border-radius:18px;background:linear-gradient(135deg,#151515,#090909);display:flex;align-items:center;justify-content:space-between;gap:24px}.cta h2{margin:0 0 6px;font-size:32px}.cta p{margin:0;color:var(--muted)}footer{padding:36px 0;border-top:1px solid #1d1d1d;color:#777;font-size:13px}.footerline{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:820px){.grid{grid-template-columns:1fr}.why{grid-template-columns:1fr}.navlinks a:not(.button){display:none}.hero{padding-top:58px}.cta{align-items:flex-start;flex-direction:column}.preview{margin-top:38px}section{padding:52px 0}}
+  </style>
+</head>
+<body>
+  <header class="nav"><div class="wrap"><a class="brand" href="#top">CareWare</a><nav class="navlinks" aria-label="Main navigation"><a href="#overview">Overview</a><a href="#safety">Safety</a><a class="button secondary" href="https://github.com/LouiseCatala/CareWare">GitHub</a></nav></div></header>
+  <main id="top">
+    <div class="hero"><div class="wrap"><span class="eyebrow">Local PC care. Private by design.</span><h1>Give your computer<br>the care it deserves</h1><p>Check your Windows PC, understand the results, and create a clear report—without needing to be a computer expert.</p><div class="actions"><a class="button" href="https://github.com/LouiseCatala/CareWare/releases/latest/download/CareWare-Setup.exe">Download for Windows ↓</a><a class="button secondary" href="#overview">See how it works</a></div><div class="preview"><img src="careware-preview.png" alt="CareWare checks dashboard and local PC care interface"></div></div></div>
+    <section id="overview"><div class="wrap"><div class="section-head"><h2>Useful checks, explained clearly</h2><p>CareWare brings common Windows diagnostics into one focused desktop app and translates results into practical language.</p></div><div class="grid">
+      <article class="card"><div class="number">1</div><b>Start a private checkup</b><p>Review the consent notice, identify the computer, and choose the checks you want to run.</p></article>
+      <article class="card"><div class="number">2</div><b>Understand the results</b><p>See passed checks, items needing attention, problems, and unavailable readings without false green results.</p></article>
+      <article class="card"><div class="number">3</div><b>Keep a useful record</b><p>Export PDF and JSON reports, compare checkups, or save the complete history as CSV.</p></article>
+    </div></div></section>
+    <section><div class="wrap why"><div><p class="muted">WHY CAREWARE</p><p class="quote">PC health information should help people make decisions—not bury them in technical output.</p></div><div class="card"><b>Made for everyday Windows users</b><p>CareWare is for people who want to check a desktop or laptop without navigating command-line tools or scattered system menus. It gives context while leaving repair decisions in the user’s hands.</p></div></div></section>
+    <section id="safety"><div class="wrap"><div class="privacy"><strong>Designed around local data and deliberate actions</strong><ul><li>Checkup results remain on the computer.</li><li>Personal documents, photos, passwords, and browsing history are not cleanup targets.</li><li>Cleanup starts in dry-run mode and requires consent, review, confirmation, and a verified restore point.</li><li>Unreadable information is shown as unavailable rather than healthy.</li></ul></div></div></section>
+    <section><div class="wrap"><div class="cta"><div><h2>Ready to check your PC?</h2><p>Free Windows 10/11 installer. No separate Python or Node.js setup required.</p></div><a class="button" href="https://github.com/LouiseCatala/CareWare/releases/latest/download/CareWare-Setup.exe">Download CareWare</a></div></div></section>
+  </main>
+  <footer><div class="wrap footerline"><span>CareWare · Local PC checks in plain language</span><span><a href="https://github.com/LouiseCatala/CareWare">Source and documentation</a></span></div></footer>
+</body>
+</html>
